@@ -123,14 +123,6 @@ TARGET_IP="<BELLATRIX_IP>"
 LPORT="<LISTENING_PORT>"
 ```
 
-Example private laboratory addresses might look like:
-
-```text
-ATTACKER_IP=192.168.x.x
-TARGET_IP=192.168.x.x
-LPORT=5555
-```
-
 Do not copy an address from this walkthrough without first verifying your own virtual network.
 
 ---
@@ -202,7 +194,7 @@ Root flag
 
 ## 1. Identify the Attacker IP Address
 
-Begin by identifying the IP address and network interface assigned to the Kali Linux machine.
+I began by identifying the IP address and network interface assigned to the Kali Linux machine.
 
 Using the modern `ip` command:
 
